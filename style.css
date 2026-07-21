@@ -1,0 +1,165 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+
+.login-page{
+
+    background: linear-gradient(135deg,#0d6efd,#4f46e5);
+
+}
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1507842217343-583bb7270b66");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    min-height:90vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+/* Card */
+
+.login-card{
+
+    border: none;
+    border-radius:20px;
+    overflow:hidden;
+
+}
+
+/* Bagian kiri */
+
+.login-left{
+
+    background:linear-gradient(rgba(13,110,253,.8),rgba(13,110,253,.8)),
+    url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    min-height:550px;
+
+    padding:30px;
+
+}
+
+/* Form */
+
+.form-control{
+
+    height:50px;
+
+    border-radius:10px;
+
+}
+
+.input-group-text{
+
+    border-radius:10px 0 0 10px;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+    height:50px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.03);
+
+}
+.navbar-nav .nav-link{
+
+    position:relative;
+    color:white !important;
+    margin:0 10px;
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link:hover{
+
+    color:#ffc107 !important;
+    transform:translateY(-2px);
+
+}
+
+.navbar-nav .nav-link::after{
+
+    content:"";
+    position:absolute;
+
+    left:0;
+    bottom:-5px;
+
+    width:0%;
+    height:3px;
+
+    background:#ffc107;
+
+    transition:.4s;
+
+}
+
+.navbar-nav .nav-link:hover::after{
+
+    width:100%;
+
+}
+.card{
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+
+}
+.btn{
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+html{
+
+    scroll-behavior:smooth;
+
+}
